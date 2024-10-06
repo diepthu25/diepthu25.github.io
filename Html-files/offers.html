@@ -304,33 +304,17 @@
         >
           <ul class="navbar-nav end-links">
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="../Html-files/cart.html"
-                style="color: black"
-              >
+              <a class="nav-link" href="./cart.html" style="color: black">
                 Cart <i class="fa-solid fa-cart-shopping"></i>
               </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="Html-files/login.html"
-                style="color: black"
+              <span
+                id="product-count"
+                class="position-absolute top-10 start-90 translate-middle badge rounded-pill bg-danger"
+                >0</span
               >
-                Login
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="Html-files/signup.html"
-                style="color: black"
-              >
-                Sign-Up
-              </a>
             </li>
           </ul>
+          <div class="text-end" id="user-actions"></div>
         </div>
       </div>
     </nav>
@@ -727,4 +711,5 @@
       </footer>
     </div>
   </body>
+  <script src="../script.js" type="module"></script>
 </html>

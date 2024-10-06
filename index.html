@@ -202,26 +202,14 @@
               >
                 Cart <i class="fa-solid fa-cart-shopping"></i>
               </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="Html-files/login.html"
-                style="color: black"
+              <span
+                id="product-count"
+                class="position-absolute top-10 start-90 translate-middle badge rounded-pill bg-danger"
+                >0</span
               >
-                Login
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="Html-files/signup.html"
-                style="color: black"
-              >
-                Sign-Up
-              </a>
             </li>
           </ul>
+          <div class="text-end" id="user-actions"></div>
         </div>
       </div>
     </nav>
@@ -673,7 +661,7 @@
             data-aos-offset="170"
             data-aos-easing="ease-in-out"
           >
-            <img src="/icons/dining-table.png" alt="" class="service-icon" />
+            <img src="" alt="" class="service-icon" />
             <h1>
               Coffee<br />
               Drink
@@ -1112,7 +1100,7 @@
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
     <script src="Html-files/navbar.js"></script>
     <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
     <script>
