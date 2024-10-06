@@ -48,14 +48,14 @@ function handleAuthStateChanged(user) {
     document.getElementById("user-actions").innerHTML = `
       <ul class="navbar-nav end-links">
         <li class="nav-item">
-          <a class="nav-link" href="Html-files/login.html" style="color: black">
+          <a class="nav-link" href="./Html-files/login.html" style="color: black">
             Login
           </a>
         </li>
         <li class="nav-item">
           <a
             class="nav-link"
-            href="Html-files/signup.html"
+            href="./Html-files/signup.html"
             style="color: black"
           >
             Sign-Up
