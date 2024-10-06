@@ -36,6 +36,8 @@
       crossorigin="anonymous"
       defer
     ></script>
+
+    <script src="./BookingTable_Script.js" type="module"></script>
     <link rel="stylesheet" href="../Css-files/content.css" />
     <link rel="stylesheet" href="../Css-files/cart.css" />
     <link rel="stylesheet" href="../Css-files/navbar.css" />
@@ -276,6 +278,7 @@
               <span
                 id="product-count"
                 class="position-absolute top-10 start-90 translate-middle badge rounded-pill bg-danger"
+                style="top: 24px !important; right: 155px !important"
                 >0</span
               >
             </li>
@@ -294,11 +297,7 @@
       </div>
 
       <div class="cart">
-        <div class="empty-cart"></div>
-        <div class="cart-details">
-          <div id="cart-items"></div>
-          <div id="cart-total"></div>
-        </div>
+        <div id="cart-body" class="cart-body"></div>
       </div>
 
       <div class="row" style="margin-top: 40px">
@@ -322,7 +321,7 @@
                 My Coffee
                 <img
                   alt="myphoto"
-                  src="./Images/logo/Foodielogo.png"
+                  src="../Images/logo/Foodielogo.png"
                   style="
                     width: 50%;
                     height: 50%;
